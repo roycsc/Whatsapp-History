@@ -7,7 +7,6 @@ body {
     margin: auto;
     width: 73vw;
     height: 90vh;
-    
 }
 
 .chatbox-header {
@@ -19,17 +18,16 @@ body {
     margin-bottom: 0;
     padding: 10px;
     border-radius: 5px 5px 0 0;
-    /*height: 45px;*/
 }
 
-.chatbox-header img {
-    border-radius: 50%;
-    height: 40px;
-    width: 40px;
-    margin-left: 10px;
-    margin-right: 10px;
-    float: left;
-}
+    .chatbox-header img {
+        border-radius: 50%;
+        height: 40px;
+        width: 40px;
+        margin-left: 10px;
+        margin-right: 10px;
+        float: left;
+    }
 
 .chatbox-header-text {
     overflow: auto;
@@ -58,7 +56,7 @@ body {
     border-width: 1px;
     border-color: #C4C6C0;
     border-radius: 0 0 5px 5px;
-    background-image: url('../IMG/chat-background.jpg');
+    background-image: url('IMG/chat-background.jpg');
     background-size: 599px 852px;
 }
 
@@ -130,7 +128,7 @@ li.self {
 }
 
 .msg-reply-text-bubble-others {
-    background-color: #E5E5E5;
+    background-color: #F2F2F2;
     border-radius: 5px;
     padding: 8px;
     margin-top: 5px;
@@ -152,7 +150,19 @@ li.self {
 .msg-reply-image-bubble-others {
     display: flex;
     position: relative;
-    background-color: #E5E5E5;
+    background-color: #F2F2F2;
+    border-radius: 5px;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-left-style: solid;
+    border-left-width: 5px;
+}
+
+.msg-reply-image-bubble-self {
+    display: flex;
+    position: relative;
+    background-color: #D1EBBC;
     border-radius: 5px;
     padding: 8px;
     margin-top: 5px;
@@ -167,6 +177,8 @@ li.self {
     width: 55px;
     overflow: hidden;
     justify-content: center;
+    border-radius: 0 5px 0 0;
+    margin-left: 10px;
 }
 
 .image-reply {
